@@ -10,7 +10,6 @@ public:
 	Complejo operator+(const Complejo&) const;
 	Complejo operator-(const Complejo&) const;
 	Complejo operator*(const Complejo&)const;
-	void imprimir() const;
 	bool operator==(const Complejo& other);
 	bool operator!=(const Complejo& other);
 	friend std::ostream& operator<<(std::ostream&, const Complejo&);

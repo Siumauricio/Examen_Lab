@@ -24,10 +24,6 @@ Complejo Complejo::operator*(const Complejo& operando2)const {
 	return Complejo(real * operando2.real, imaginaria* operando2.imaginaria);
 }
 
-void Complejo::imprimir() const  {
-	cout << '(' << real << ", " << imaginaria << ')';
-} 
-
 bool Complejo::operator==(const Complejo& other)
 {
 	Complejo var;
